@@ -48,11 +48,15 @@ const skillsSection = {
   title: "What I do..",
   subTitle: "OBSESSED WITH ALGORITHMS, SYSTEMS & INTELLIGENT MACHINES",
   skills: [
-  emoji("⚡ Depth in Algorithms & Problem Solving — focused on efficiency and optimization"),
-  emoji("⚡ Core Systems Knowledge — Operating Systems, Databases & Networking"),
-  emoji("⚡ Backend-Oriented Development with scalable architecture mindset"),
-  emoji("⚡ Applied AI/ML experimentation through real-world projects")
-],
+    emoji(
+      "⚡ Depth in Algorithms & Problem Solving — focused on efficiency and optimization"
+    ),
+    emoji(
+      "⚡ Core Systems Knowledge — Operating Systems, Databases & Networking"
+    ),
+    emoji("⚡ Backend-Oriented Development with scalable architecture mindset"),
+    emoji("⚡ Applied AI/ML experimentation through real-world projects")
+  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -160,11 +164,11 @@ const workExperiences = {
       desc: "Worked and deployed different AI models on Azure, gaining hands-on experience with cloud-based AI services and contributing to real-world projects.",
       descBullets: [
         "Implemented and optimized machine learning models for various applications, improving performance and scalability.",
-        "Collaborated with cross-functional teams to integrate AI solutions into existing systems, enhancing functionality and user experience.",
+        "Collaborated with cross-functional teams to integrate AI solutions into existing systems, enhancing functionality and user experience."
       ]
     },
     {
-      role: "Data Analyst Intern",  
+      role: "Data Analyst Intern",
       company: "Deolite",
       companylogo: require("./assets/images/Deloitte.png"),
       date: "July - 2025",
@@ -174,7 +178,6 @@ const workExperiences = {
         "Created interactive dashboards and reports to communicate findings effectively to stakeholders."
       ]
     }
-    
   ]
 };
 
@@ -190,12 +193,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Projects that I have worked on and deployed to production. It can be a mobile app, web app or a custom software",
+  subtitle:
+    "Projects that I have worked on and deployed to production. It can be a mobile app, web app or a custom software",
   projects: [
     {
       image: require("./assets/images/signspell.png"),
       projectName: "SignSpell - AI",
-      projectDesc: "SignSpell is an AI-powered sign Language Learning platform that provides an interactive and engaging way for users to learn sign language. It offers a comprehensive curriculum, real-time feedback, and personalized learning paths to help users master sign language effectively.",
+      projectDesc:
+        "SignSpell is an AI-powered sign Language Learning platform that provides an interactive and engaging way for users to learn sign language. It offers a comprehensive curriculum, real-time feedback, and personalized learning paths to help users master sign language effectively."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -207,7 +212,8 @@ const bigProjects = {
     {
       image: require("./assets/images/skillbridge.png"),
       projectName: "SkillBridge - AI",
-      projectDesc: "SkillBridge is an AI-powered skill development platform that offers personalized learning paths and real-time feedback to help users acquire new skills efficiently. It provides a comprehensive curriculum, interactive exercises, and progress tracking to enhance the learning experience.",
+      projectDesc:
+        "SkillBridge is an AI-powered skill development platform that offers personalized learning paths and real-time feedback to help users acquire new skills efficiently. It provides a comprehensive curriculum, interactive exercises, and progress tracking to enhance the learning experience."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -257,19 +263,21 @@ const achievementSection = {
 
     {
       title: "Oracle data Certified foundations Associate",
-      subtitle: "Achieved the Oracle Data Certified Foundations Associate certification, showcasing proficiency in data management and Oracle database technologies.",
+      subtitle:
+        "Achieved the Oracle Data Certified Foundations Associate certification, showcasing proficiency in data management and Oracle database technologies.",
       image: require("./assets/images/oracle.png"),
       imageAlt: "Oracle Logo",
       footerLink: [
         {
-          name: "Certification", 
+          name: "Certification",
           url: "https://drive.google.com/file/d/1wCEILweU6mAEBAFLi5ICu45XQsy28Sc1/view?usp=sharing"
         }
       ]
     },
     {
       title: "Infosys Basics of Business Communication",
-      subtitle: "Completed the Infosys Basics of Business Communication course and earned a certificate for successfully mastering the foundational concepts of business communication.",
+      subtitle:
+        "Completed the Infosys Basics of Business Communication course and earned a certificate for successfully mastering the foundational concepts of business communication.",
       image: require("./assets/images/infosys.png"),
       imageAlt: "Infosys Logo",
       footerLink: [
